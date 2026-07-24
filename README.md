@@ -165,14 +165,6 @@ Handles admin functions and fund withdrawals.
 5. **View Usage History** — See all withdrawals and purposes
 6. **Export Data** — Download history as CSV for records
 
-## 📊 Contract Addresses (Sepolia Testnet)
-
-```
-DonationCore:      0x90526037C47d406F1F6e6681262E068F57Fd774c
-CampaignManager:   0x010371D52f3B03F1f6c7DF6285e8079fb96D9F50
-AdminManager:      0x8f1c67B5A519728e76B482e44a10E1Ee95F330Eb
-```
-
 **View on Etherscan:** [GiveChain on Etherscan](https://sepolia.etherscan.io/)
 
 ## 🔒 Security Considerations
@@ -203,16 +195,6 @@ To test the application:
    - Test search and filter functionality
    - Export data to CSV
    - Test on mobile devices
-
-## 📝 Environment Variables
-
-Currently, this project uses hardcoded addresses. To make it more flexible, create a `.env` file:
-
-```plaintext
-VITE_DONATION_CORE_ADDRESS=0x90526037C47d406F1F6e6681262E068F57Fd774c
-VITE_CAMPAIGN_MANAGER_ADDRESS=0x010371D52f3B03F1f6c7DF6285e8079fb96D9F50
-VITE_ADMIN_MANAGER_ADDRESS=0x8f1c67B5A519728e76B482e44a10E1Ee95F330Eb
-```
 
 ## 🤝 Contributing
 
